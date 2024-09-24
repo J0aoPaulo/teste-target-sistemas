@@ -15,9 +15,9 @@ public class Q02 {
         int numero = scanner.nextInt();
 
         if (verifyIsFibonacci(numero)) {
-            System.out.println(numero + " é Fibonacci.");
+            System.out.println(numero + " pertence a sequência de Fibonacci.");
         } else {
-            System.out.println(numero + " não é Fibonacci.");
+            System.out.println(numero + " não pertence a sequenquêcia de Fibonacci.");
         }
     }
 
